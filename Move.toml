@@ -1,0 +1,16 @@
+[package]
+name = "store-on-aptos"
+version = "1.0.0"
+authors = []
+
+[addresses]
+Store_User_Info = "8df4e86d7b64e1634183001bc0f03f0e297abb0084b0e8aa808d5ec2ff46688e"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
+[dev-dependencies]
